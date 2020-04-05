@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+
+    <title>Shoes Store</title>
+</head>
+    <header id = "header">
+        <div class="navlogo" >   
+            <a href="#">
+                <img  id="header-img" src="images/logo3.png" alt="black'n'white draw shoes" id="header-img">
+                <p> World Shoes</p>
+            </a>
+        </div>
+        
+        <nav id="nav-bar"> 
+            <div class="navbar-links">
+                <ul>
+                    <li class="nav-link"><a href="#featuresShoes">Features</a></li>    
+                    <li class="nav-link"><a href="#videoAncor">Advertasing</a></li> 
+                    <li class="nav-link"><a href="#priceAncor">Price</a></li>      
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+<body>
+    <main>
+        <h1>-  World Shoes - </h1> 
+        <span id="featuresShoes"></span>
+            <section id="containerSummary">
+                <article >
+                    <div >
+                        <img src="images/icon1.png" alt="fire draw" >
+                    </div>
+                    <div>
+                        <h3 >Premium Shoes</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Laborum adipisci rem eos aspernatur quaerat ipsam ipsa debitis
+                             officia magnam placeat reprehenderit amet earum facere aliquid 
+                             ab commodi quo, ratione architecto?. 
+                            Take advantage of our promotions and check them out.</p>
+                    </div>
+                </article>   
+
+                <article>
+                    <div>
+                        <img src="images/icon2.png" alt="fire draw" >
+                    </div>
+                    <div>
+                        <h3>Mails</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Laborum adipisci rem eos aspernatur quaerat ipsam ipsa debitis
+                             officia magnam placeat reprehenderit amet earum facere aliquid 
+                             ab commodi quo, ratione architecto?. 
+                            Take advantage of our promotions and check them out.</p>
+                    </div>
+
+                </article>
+
+                <article>
+                    <div>
+                        <img src="images/icon3.png" alt="fire draw" >
+                    </div>
+                    <div>
+                        <h3>Delivery</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Laborum adipisci rem eos aspernatur quaerat ipsam ipsa debitis
+                             officia magnam placeat reprehenderit amet earum facere aliquid 
+                             ab commodi quo, ratione architecto?. 
+                            Take advantage of our promotions and check them out.</p>
+                    </div>
+                </article>
+            </section>
+
+
+            <span id="videoAncor"></span>
+            <section id="video">
+                <center><iframe 
+                        src="https://www.youtube.com/embed/EvdzQdnZPcw" 
+                        frameborder="0"     
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe></center>
+            </section>
+            
+            <span id="priceAncor"></span>
+            <section id="price">
+                <article id="art1">
+                        <h3>Puma X </h3> 
+                        <p> $68 </p>
+                        <ul>
+                            <li>Lorem ipsum dolor </li>
+                            <li>Lorem ipsum dolor </li>
+                            <li>Lorem ipsum dolor </li>
+                        </ul>                         
+                        <button class="btn" onclick="displayView()">view</button>
+                </article>
+
+                
+                <article id="art2">                    
+                        <h3>Nike Max</h3>
+                        <p> $79 </p>
+                        <ul>
+                            <li>Lorem ipsum dolor </li>
+                            <li>Lorem ipsum dolor </li>
+                            <li>Lorem ipsum dolor </li>
+                        </ul>
+                        <button class="btn" onclick="displayView()">view</button>
+                </article>
+
+
+                <article id="art3">                    
+                        <h3>Vans Zebra</h3>
+                        <p> $82 </p>
+                        <ul>
+                            <li>Lorem ipsum dolor </li>
+                            <li>Lorem ipsum dolor </li>
+                            <li>Lorem ipsum dolor </li>                   
+                        </ul>
+                        <button class="btn" onclick="displayView()"> view</button>
+                </article>
+            </section>
+
+        <section id="sectionForm">
+            <h4>Subscribe (Comments)</h4>       
+            <form action=" https://www.freecodecamp.com/email-submit)" method="POST" id="form">   
+                   
+                        <div id="formLabel">
+                            <label class="labelStyle">Name:</label>
+                                <input type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="   Enter your Name" 
+                                    oninvalid="setCustomValidity('Type your Name')"
+                                    required/><br>
+                    
+                                <label class="labelStyle">Email:</label>
+                                <input type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="   Enter your Email address" 
+                                    oninvalid="setCustomValidity('Type your Email')"
+                                    required/>
+                        </div>
+                    
+                        <div id="formLabel2">
+                                <p>Any comments or suggestions?</p>
+                                <textarea name="comments" 
+                                            id="comments" 
+                                            placeholder="">
+                                </textarea>
+                    
+                                <input
+                                    type="submit"
+                                    id="submit">
+                                
+                        </div>
+                
+            </form>
+        </section>
+    </main>
+
+    
+    <footer>
+        <ul>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Contact</li>
+        </ul>
+        <br>
+
+        <span>@Rodrigo Palazon</span>
+    </footer>
+</body>
+</html>
