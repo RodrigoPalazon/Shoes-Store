@@ -1,4 +1,4 @@
-Debbuged link: https://rodrigopalazon.github.io/Shoes-Store/
+Debugged link: https://rodrigopalazon.github.io/Shoes-Store/
 
 # Shoes-Store
 Simulation of a  Store's main page  
